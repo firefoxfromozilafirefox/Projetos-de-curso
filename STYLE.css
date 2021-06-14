@@ -1,0 +1,134 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.navgation{
+    background-image: url(../imagens/topo.jpg);
+    width: 100%;
+    height: auto;
+    background-position: right center;
+    background-size: cover;
+}
+
+.logo{
+    float: left;
+    margin-right: 15px;
+    margin-top: 05px;
+    
+}
+
+header-nav li{
+    display: inline-block;
+}
+
+ul{
+    position: absolute;
+    top: 0;
+    margin-top: 0px;
+    height: 40px;
+    width: 985px;
+    text-align: right;
+    background: rgb(80,123,231);
+    background: linear-gradient(90deg, rgba(80,123,231,1) 0%, rgba(140,71,214,1) 100%);
+}
+
+ li{
+    display: inline-block;
+    padding: 8px;
+    list-style: none;
+    text-transform: uppercase;
+    filter: blur(0.35);
+    font-size: 12px;
+    margin: 0px;
+}
+
+nav a{
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    filter: blur(0.35px);
+    color: honeydew;
+    transition: 0.3s linear;
+
+  
+    
+}
+
+ header nav a:hover{
+    opacity: 0.5;
+    color: cadetblue;
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.card{
+    display: inline-block;
+    float:right;
+    margin: 20px 25px 20px 20px;
+}
+
+.card__text{
+    line-height: 8px;
+    text-align: center;
+    font-size: 20;
+    font-weight: 700;
+    
+}
+
+
+.about{
+    width: 600px;
+    display: inline-block;
+    margin: 0px 0px 0px 250px;
+    
+}
+.about__h2{
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 30px;
+
+}
+
+.about__article{
+    font-size: 17px;
+    text-align: center;
+}
+
+
+iframe{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 50px 50px;    
+}
+
+
+
+
+
